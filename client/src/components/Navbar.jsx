@@ -10,8 +10,6 @@ const Navbar = () => {
 
     return (
         <Container maxW={"1140px"} px={4} >
-        {/* bg={useColorMode("gray.100", "gray.900")} 
-        > */}
             <Flex
                 h={16}
                 alignItems={"center"}
