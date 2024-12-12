@@ -5,6 +5,7 @@ import { useProductStore } from "../store/product";
 import ProductCard from "../components/ProductCard";
 
 const HomePage = () => {
+    console.log("loading HomePage");
     const { fetchProducts, products } = useProductStore();
     useEffect(() => {
         fetchProducts();
